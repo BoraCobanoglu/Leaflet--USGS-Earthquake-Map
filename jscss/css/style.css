@@ -1,0 +1,35 @@
+/* remove default margin and padding from body */
+body {
+  padding: 0;
+  margin: 0;
+}
+.container {
+
+  border: 1px solid gray;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  background-color: #d0f0f6;
+  text-align: left;
+  padding: 8px;
+}
+
+/* set map, body, and html to 100% of the screen size */
+#map,
+body,
+html {
+  height: 100%;
+}
+
+
+#map {
+  margin:10px
+}
+
+#logo{
+  float: left;
+  width: 120px;
+  height: 50px;
+  margin-right: 20px;
+  margin-top:-15px;
+}
